@@ -1,0 +1,92 @@
+
+header {
+
+	background: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+/* select all elements with class="main-section" */
+.main-section {
+	position: fixed;
+	background-color: #ffffff;
+	border: 1px solid red;
+}
+
+/* select all elements with class="form-body" */
+.form-body {
+	width: 1024px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/* select all elements with class="main-bio" */
+.main-bio {
+	float: left;
+}
+
+
+/* select all div elements with class="form-body" */
+div.form-body {
+
+}
+
+
+img#bio-image {
+	float: left;
+	margin: 25px;
+
+}
+
+section#main-bio {
+	float: left;
+	border: 2px solid red;
+}
+
+h1 {
+
+}
+
+h2 {
+	bottom-border: 1px black;
+}
+
+p {
+	width: 650px;
+	line-height: 25px;
+	border: 2px solid blue;
+}
+
+/* apply a yellow border around paragraph and unnumbered list
+elements where the id="main-bio"
+section#main-bio p, ul {
+	border: 2px solid yellow;
+}
+ NOTE this actually overrides the blue border above*/
+
+
+
+section {
+	background: #666;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+
+aside {
+	float: left;
+	margin-left: 30px;
+	background-color: #fff;
+	padding: 50px;
+
+
+}
+
+footer {
+	clear: both;
+	background-color: #ccc;
+	padding: 20px;
+
+}

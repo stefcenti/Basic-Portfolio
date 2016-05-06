@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<!-- 
+
+	Filename: index.html
+
+	Purpose: contains the code for the first HTML page that will make up my portfolio.  It is the "About Me" page.  Each page, index.html, portfolio.html, contact.html will have the following basic elements:
+
+	1: Main-Section - this is the main section of the form.  It's position will be fixed and all other elements will be positioned accordingly.  
+
+	2: Name - this is the heading where my name will be displayed.  It's posiiton will be on the top of the Main-Section indented to the right.
+
+	3: Links - this is the heading where the "About", "Portfolio", and "Contact" tabs/links will be located.  They will also be on top of the Main-Section but on the right side indented to the left.
+
+	4: Form-Body - depending on what page is displayed, this is where the information for that specific form will be located.  The forms for this project will be the About-Form, Portfolio-Form and Contact-Form.  Each form could be in it's own html file.  For now, the code will be in this file with comments indicating which form it is.
+
+	5: ConnectWithMe - this is the section where the social links will accessed.  It will have buttons for accessing my GitHub, LinkedIn and StackOverflow sites.
+
+	6: Footer-Copy - this is the footer which will have my Copyright info and will include the border that separates the footer from the Main-Section.
+
+	Note that of all the elements, 1-6, only #4, Form-Body, changes when the user clicks on one of the links in the Link section/tab at the top.
+
+	 -->
+
+	<head>
+
+		<title>Student Portfolio</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	
+	<!-- 
+	For now, place all style sheet info here. This will be moved to a separate file once the first version of index.html is complete
+	-->
+	
+	
+	</head>
+
+	<body>
+
+	<!--
+	
+	Element: Main-Section
+	Purpose: This is the main section of each page.  All the elements on the form will be placed relative to this box/section.
+
+	-->
+
+	<h1>main-section</h1>
+
+	<!--
+
+	Element: Name
+	Purpose: Displays my name at the top of my portfolio
+
+	-->
+	<h1>Stefanie Centi</h1>
+
+	<!--
+
+	Element: Links
+	Purpose: Displays the links to my About, Contact and Portfolio forms.  They will have links to these forms as well.
+
+	-->
+
+	<h1>About    Portfolio    Contact</h1>
+
+	<!--	******
+
+	Element: Form-Body
+
+	Purpose: This is where the main content of each form will be displayed.  There will be a form body for the About, Contact and Portfolio forms.  For now, portfolio.html and contact.html will be a copy of index.html with changes hard-coded here.
+
+	To Do: Find out how to set up the html files such that only this section of code is needed in each one.  I think that is done by making classes in the css file that will eventually be included in each html.
+
+	Questions: 
+
+	- Why isn't this section of code in a separate file called about.html that is just included at this point?
+
+	- How do you overlay just this part of the form? i.e. when contact is selected, the about form needs to be overlayed with the contact form.  Or is the current form closed and a whole new form opened?
+
+			****** -->
+	
+
+	<div class="form-body">
+
+		<section id="main-bio">
+
+			<h2>About Me</h2>
+
+
+			<img src="http://placehold.it/200x200" alt="Your Name" id="bio-image">
+
+			<p>
+				I graduated from Rutgers University in 1986 with a Degree in Comp Sci. and later went on to complete my masters in Comp Sci at FDU.
+				<br><br>
+				Modeling and Statistics - observing patterns and predicting outcomes in the environment, climate and in social behavior and trends.  I think modeling and statistics is an important field and that it is very hard to build good models that make acurate predictions.  The models are getting better and can be useful for solving important problems that need to be solved.
+			 	<br><br>
+			 	Sports - playing and watching my children play.  Particularly, I like softball and tennis and my daughters like soccer and softball.  At first, not knowing anything about soccer, I was not much of a fan.  After many years of watching my youngest train and work on getting better it is been fun to watch the games and think about the different strategies that are used to win the game.
+			 	<br><br>
+			 	Music - I have always loved to listen and even play music.  I played the sax in high school and even in the marching band at Rutgers.  That was a great experience and I always loved watching football so it was a great way to do both.  My favorite music genres are Alternative, Jazz and Rock but I love all music so it is tough to narrow it down.  I started to take guitar lessons a couple of years ago but I cut my finger so bad preparing dinner one night that I had to stop for a while and have not had a chance to start it up again.  It is something that I want to get back to.  While I really enjoy playing the sax, it is much better with a band and I don't have that kind of time so I think the guitar is a great instrument that you can take and play anywhere and learning it is also a great way to help my brain.
+			 	<br><br>
+			 	Health & Fitness - Speaking of the brain, more than once, one of my latest interests is in health.  I feel as if the daily grind we are all being put through is truly a detriment to our health.  Including brain health!  I am really interested in the brain and the reasearch is fun to read about.  We are making a lot of progress recently that has given us insight but there is a lot more to know!  I have a couple of relatives that have suffered and are currently suffering from depression, dimentia and alzheimers so I am particulary interested in some of the root causes.  I also know a lot of young adults that have suffered and died from cancer so finding out all about the causes and prevention of cancer has been an interest of mine as well.
+			 	<br><br>
+			 	Favorite Podcasts - There are several great podcasts out there and I love to listen to them when I'm driving or completing mundane chores.  Some of my favorites are: Tim Ferris, Gary Null and Sci Fri with Ira Flatow.
+			</p>
+
+		</section>
+
+	</div>
+
+	<!--	******
+	Element: ConnectWithMe
+	Purpose: This element will display the social icons and will contain links to my GitHub, LinkedIn and StackOverflow pages.
+
+			****** -->
+
+	<h1>ConnectWithMe</h1>
+
+	<!--
+
+	Element: Footer
+	Purpose: This is the Footer and the bottom of each page.  I will contain copyright info and show a top border separating it from the Main-Section
+
+	-->
+
+	<h1>Footer</h1>
+
+	</body>
+
+</html>
