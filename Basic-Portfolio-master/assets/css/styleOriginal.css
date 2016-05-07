@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Fill in your CSS Below */
+
+
+body {
+	line-height: 32px;
+	color: #333;
+}
+
+header {
+
+	background: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+section {
+	background: #666;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#left {
+	float: left;
+	background: #666;
+	width: 33.333%;
+}
+
+#middle {
+	float: left;
+	background: #888;
+	width: 33.333%;
+}
+
+#right {
+	float: left;
+	width: 33.333%;
+}
+
+#full {
+	clear: both;
+	background: #eee;
+	color: #333;
+	overflow: auto;
+}
+
+#division {
+	width: 100%;
+	background: #6ea3da;
+	padding: 20px;
+	margin-bottom: 30px;
+
+}
+
+aside {
+	float: left;
+	margin-left: 30px;
+	background-color: #fff;
+	padding: 50px;
+
+
+}
+
+footer {
+	clear: both;
+	background-color: #ccc;
+	padding: 20px;
+
+}

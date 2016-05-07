@@ -1,0 +1,122 @@
+/*****
+/* Filename: style.css
+/*
+/* Description: contains the style specs for my portfolio project
+*/
+
+/*****
+/* Set up some basics for the entire page.
+******/
+body {
+	background-color: #dddddd;
+}
+
+#name-heading {
+	left: 30px;
+	position: fixed;
+	text-align: center;
+	padding: 30px 20px 30px 20px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 20px;
+}
+
+#link-heading {
+
+}
+
+/* select the element with id="main-form" */
+/* main-form element contains the entire content of each page */
+#main-form {
+	position: absolute;
+	background-color: #ffffff;
+	/*border: #dddddd; make red for now */
+	border: 1px solid red;
+}
+
+
+
+
+/* select the element with id="form-body" */
+/* form-body element contains the portion on the main-form
+/* that changes for each page: About, Contact and Portfolio
+/* NOTE: This may be a class but I don't think so because there will be only
+/* one instance of this element on a page.  Each page will have a distinct
+/* form-body specifically made for that page. */
+#form-body {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #ffffff
+	border: 1px solid blue;
+}
+
+/* select the element with class="side_bar" */
+/* the side-bar for each page contains the social-icons element */
+#side-bar {
+	width: 270px;
+	border: 1px solid green;
+}
+
+section#about-me {
+	float: left;
+	border: 2px solid yellow;
+}
+
+/* select the image that will be displayed in the form-body of the About page */
+img#bio-image {
+	float: left;
+	margin: 25px;
+
+}
+
+
+h1 {
+}
+
+h2 {
+	color: #4aaaa5;
+	border-bottom: 1px black;
+}
+
+p {
+	width: 650px;
+	line-height: 25px;
+	border: 2px solid orange;
+}
+
+/* apply a yellow border around paragraph and unnumbered list
+elements where the id="main-bio"
+section#main-bio p, ul {
+	border: 2px solid yellow;
+}
+ NOTE this actually overrides the blue border above*/
+
+/****  Comment out for now.  not sure what this does yet.
+	I think this was copied from Student-Bio and is confusing
+	in this project right now.
+
+section {
+	background: #666;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+
+aside {
+	float: left;
+	margin-left: 30px;
+	background-color: #fff;
+	padding: 50px;
+
+
+}
+
+footer {
+	clear: both;
+	background-color: #ccc;
+	padding: 20px;
+
+}
+
+***/

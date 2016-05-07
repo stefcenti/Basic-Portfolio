@@ -1,0 +1,111 @@
+/*****
+/* Filename: style.css
+/*
+/* Description: contains the style specs for my portfolio project
+*/
+
+/*****
+/* Set up some basics for the main content.
+/*
+/* NOTE: the body contains the header and the footer;
+/*****/
+body {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin: 0px;
+border: 1px solid blue;
+}
+
+/*****
+/* Set up an area to hold all the content of the page
+/*****/
+#allcontent{
+	width: 960px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+background-color: beige;
+}
+
+/*****
+/* Set up some basics for the main header.
+/*****/
+
+#header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+border: 1px solid red;
+}
+
+/*****
+/* Set up the styles for the Name Label
+/* It will be located in the header on the left
+/* and indented.
+/*****/
+#name-label {
+	color: white;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	margin-left: 50px;
+	width: 115px;
+	padding: 15px;
+}
+
+#link-label {
+}
+
+#main {
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+	width: 650px;
+border: 1px solid orange;
+}
+
+#bio-image {
+	margin-right: 15px;
+	float: left;
+}
+
+#about-label {
+	padding: 15px;
+	font-size: 15px;
+}
+
+#about-text {
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+}
+
+#sidebar {
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+	float: right;
+border: 1px solid purple;
+}
+
+#footer {
+	color: white;
+	background-color: #666666;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #4aaaa5;
+	clear: right;
+}
+
+/*****
+/* Set up fonts for all headings and paragraphs.
+/*****/
+h1, h2, h3, h4, h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #4aaaa5;
+	border: 1px solid green;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+	color: #777777;
+border: 1px solid yellow;
+}
+
+
